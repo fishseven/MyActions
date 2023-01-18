@@ -6,7 +6,7 @@ name: CI
 on:
   schedule:
     # 定时执行，Runs at 16:10 UTC every day
-    - cron:  '10 16 * * *'
+    - cron:  '05 16 * * *'
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
